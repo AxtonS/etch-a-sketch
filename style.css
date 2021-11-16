@@ -14,24 +14,30 @@ body {
     color: #BAD1CD;
 }
 
+#footer {
+    text-align: center;
+    color: #BAD1CD;
+}
+
 #container {
     padding: 10px;
     background-color: #1E2D2F;
     display: flex;
     flex-flow: column;
+    margin: auto;
     width: fit-content;
     height: fit-content;
+    border-radius: 5px;
 }
 
 #container div {
     display: flex;
     flex-flow: row;
-    background-color: aliceblue;
+    background-color: #1E2D2F;
 }
 #container div div {
-    width: 5vw;
-    height: 5vh;
-
+    width: 4vh;
+    height: 4vh;
     margin: 3px;
-    background-color: red;
+    background-color: #7D4E57;
 }

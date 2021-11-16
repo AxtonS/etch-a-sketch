@@ -1,0 +1,37 @@
+/* color scheme from Darkest to lightest:
+001514 Dark Jungle Green
+1E2D2F Charleston Green
+7D4E57 Tuscan Red
+F39C6B Atomic Tangerine
+BAD1CD Opal */
+
+body {
+    background-color: #001514;
+}
+
+#title {
+    text-align: center;
+    color: #BAD1CD;
+}
+
+#container {
+    padding: 10px;
+    background-color: #1E2D2F;
+    display: flex;
+    flex-flow: column;
+    width: fit-content;
+    height: fit-content;
+}
+
+#container div {
+    display: flex;
+    flex-flow: row;
+    background-color: aliceblue;
+}
+#container div div {
+    width: 5vw;
+    height: 5vh;
+
+    margin: 3px;
+    background-color: red;
+}

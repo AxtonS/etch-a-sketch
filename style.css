@@ -4,40 +4,26 @@
 7D4E57 Tuscan Red
 F39C6B Atomic Tangerine
 BAD1CD Opal */
-
 body {
     background-color: #001514;
+    text-align: center;
 }
-
 #title {
-    text-align: center;
     color: #BAD1CD;
 }
-
-#footer {
-    text-align: center;
-    color: #BAD1CD;
+button {
+    margin: 0 auto;
 }
-
 #container {
-    padding: 10px;
     background-color: #1E2D2F;
-    display: flex;
-    flex-flow: column;
-    margin: auto;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 5px;
+    margin: 2vh auto;
+    width: 35vw;
+    height: 35vw;
+    display: grid;
 }
-
-#container div {
-    display: flex;
-    flex-flow: row;
-    background-color: #1E2D2F;
-}
-#container div div {
-    width: 4vh;
-    height: 4vh;
-    margin: 3px;
+.square {
     background-color: #7D4E57;
+}
+#footer {
+    color: #BAD1CD;
 }

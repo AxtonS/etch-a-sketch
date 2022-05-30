@@ -25,6 +25,9 @@ button {
     background-color: #7D4E57;
     margin: 1px;
 }
+.square.hover {
+    background-color: #577D4E;
+}
 #footer {
     color: #BAD1CD;
 }

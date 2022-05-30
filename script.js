@@ -9,9 +9,12 @@ function buildGrid() {
     while (container.firstChild) {
         container.removeChild(container.firstChild);
     }
-    const squares = 16 * 16;
-    container.style.gridTemplate = 'repeat(16, 1fr) / repeat(16, 1fr)'
-    for(i = squares; i > 0; i--){
+    let squares = prompt("How many squares per side?");
+    if(squares > 100) {
+        squares = 100;
+    }
+    container.style.gridTemplate = `repeat(${squares}, 1fr) / repeat(${squares}, 1fr)`
+    for(i = squares * squares; i > 0; i--){
         const square = document.createElement('div');
         square.setAttribute('class', 'square');
         square.addEventListener('mouseenter', function(event){

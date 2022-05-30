@@ -17,12 +17,13 @@ button {
 #container {
     background-color: #1E2D2F;
     margin: 2vh auto;
-    width: 35vw;
-    height: 35vw;
+    width: 40vw;
+    height: 40vw;
     display: grid;
 }
 .square {
     background-color: #7D4E57;
+    margin: 1px;
 }
 #footer {
     color: #BAD1CD;

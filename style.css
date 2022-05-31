@@ -15,18 +15,15 @@ button {
     margin: 0 auto;
 }
 #container {
-    background-color: #1E2D2F;
+    background-color: #001514;
     margin: 2vh auto;
     width: 40vw;
     height: 40vw;
     display: grid;
 }
 .square {
-    background-color: #7D4E57;
+    background-color: #000000;
     margin: 1px;
-}
-.square.hover {
-    background-color: #577D4E;
 }
 #footer {
     color: #BAD1CD;

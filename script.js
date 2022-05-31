@@ -8,17 +8,20 @@ function buildGrid() {
         squares = 100;
     }
     function randomColor() {
-    const r = 0 + Math.floor(Math.random() * (255));
-    const g = 0 + Math.floor(Math.random() * (255));
-    const b = 0 + Math.floor(Math.random() * (255));
-    return `rgb(${r},${g},${b})`;
-}
+    const r = 0 + Math.floor(Math.random() * (256));
+    const g = 0 + Math.floor(Math.random() * (256));
+    const b = 0 + Math.floor(Math.random() * (256));
+    return `rgb(${r},${g},${b},1)`;
+    }
+   /* function randomColor() {                          //adding darken color into function using hsla
+        s = 0 + Math.floor(Math.random() * 101)
+        return `hsl(${h} ${s}% 100%)`;
+    } */
     container.style.gridTemplate = `repeat(${squares}, 1fr) / repeat(${squares}, 1fr)`
     for(i = squares * squares; i > 0; i--){
         const square = document.createElement('div');
         square.setAttribute('class', 'square');
         square.addEventListener('mouseenter', function(event){
-            // event.target.classList.add('hover');
             const color = randomColor();
             event.target.style.backgroundColor = `${color}`;
             });

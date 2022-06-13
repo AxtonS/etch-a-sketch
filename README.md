@@ -1,5 +1,6 @@
 # etch-a-sketch
 This is my second javascript project  
+Try it out at: https://axtons.github.io/etch-a-sketch/  
 
 Work in progress:  
 

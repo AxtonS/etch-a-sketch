@@ -1,5 +1,6 @@
 # etch-a-sketch
 This is my second javascript project  
+It currently only supports mouse or trackpad, will not work on touchscreen like on phones or tablets.  
 Try it out at: https://axtons.github.io/etch-a-sketch/  
 
 Work in progress:  
